@@ -22,17 +22,16 @@ export default {
 <style  lang="less">
 #page {
   font-size: 16px;
-  width: 1240px;
   height: 1754px;
   margin: 0 auto;
   background-color: #fff;
   box-shadow: 1px 1px 4px 1px #5a5a5a6e;
   .main {
+    width: 1240px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     height: 100%;
-    width: 100%;
     overflow: hidden;
   }
 }

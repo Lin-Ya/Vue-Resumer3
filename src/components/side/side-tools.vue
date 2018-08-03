@@ -1,6 +1,6 @@
 <template>
   <div id="tools" class="side-cell">
-    <div class="warper">
+    <div class="wrapper">
     <SectionBarList :title="title" :lists="dataLists"></SectionBarList>
     </div>
     <!-- <ItemDatabar :group="item.dataGroup" v-for="(item,index) in items" :key="index"></ItemDatabar> -->

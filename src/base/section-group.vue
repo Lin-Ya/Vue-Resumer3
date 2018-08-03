@@ -1,6 +1,6 @@
 <template>
   <div class="section">
-    <div class="warper">
+    <div class="wrapper">
       <div class="section-title">
         <ItemInfo :msg="section.title"></ItemInfo>
         <div class="myicon add" @click="addList()">+</div>
@@ -48,7 +48,7 @@ export default {
 </script>
 
 <style lang="less">
-.warper {
+.wrapper {
   margin-top: 24px;
   .icon {
     transition: all .5s;

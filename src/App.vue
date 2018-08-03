@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <div class="warper" :class="currentTheme">
-      <page></page>
+    <div class="app-wrapper" :class="currentTheme">
       <control :colorLists="colorLists" @switchTheme="switchTheme"></control>
+      <page></page>
     </div>
   </div>
 </template>
@@ -80,9 +80,12 @@ body {
   overflow: hidden;
 }
 #app {
-  height: 100%;
-  width: 100%;
-  padding: 32px 0;
+  padding: 40px 0;
   background-color: #38a1db;
+  min-width: 1500px;
+  .app-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div id="hero">
-    <div class="warper">
+    <div class="wrapper">
       <div class="hero-info">
         <div class="avatar">
           <ItemImagePacker :custom="info.logo"></ItemImagePacker>

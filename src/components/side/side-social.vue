@@ -1,6 +1,6 @@
 <template>
   <div id="socail" class="side-cell">
-    <div class="warper">
+    <div class="wrapper">
       <SectionInfo class="listItem" :title="title" :lists="contact"></SectionInfo>
     </div>
   </div>
