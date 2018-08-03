@@ -42,12 +42,9 @@ export default {
 <style lang="less">
 .databar {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   margin-top: 20px;
   justify-content: space-between;
-  &:hover .num {
-    opacity: 1;
-  }
   .content {
     position: relative;
     width: 240px;
@@ -71,9 +68,13 @@ export default {
   }
   .num {
     opacity: 0;
+    display: flex;
     input {
       width: 2em;
     }
+  }
+  &:hover .num {
+    opacity: 1;
   }
 }
 </style>
