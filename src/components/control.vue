@@ -11,12 +11,6 @@
               <h3 @click="showThis(0)">How to use</h3>
               <p v-show="showingIndex === 0">Click on the box to enter content. Right-click to switch content's style.</p>
             </li>
-            <!-- <li :class="{active:showingIndex ===1}">
-              <h3 @click="showThis(1)">Switch theme</h3>
-              <p class="colorLists" v-show="showingIndex === 1">
-                <span class="colorOption" :key="index" :class="{active: currentTheme === index}" :title="list.title" @click="switchColor(index)" :style="{backgroundColor:list.color}" v-for="(list,index) in colorLists"></span>
-              </p>
-            </li> -->
             <li>
               <h3 @click="saveIMG()">Save as Image-file</h3>
             </li>
@@ -78,10 +72,6 @@ export default {
         doc.save("Resume.pdf");
       });
     }
-    // switchColor(index) {
-    //   this.$emit("switchTheme", index);
-    //   this.currentTheme = index;
-    // }
   }
 };
 </script>

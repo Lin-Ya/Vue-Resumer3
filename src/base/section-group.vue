@@ -56,7 +56,7 @@ export default {
     border: 1px solid #d6d6d6;
     cursor: pointer;
     text-align: center;
-    opacity: 0;
+    display: none;
     font-size: 24px;
     font-weight: bolder;
     line-height: 32px;
@@ -94,7 +94,7 @@ export default {
         transform: translate(-50%,-50%);
       }
       &:hover .icon {
-        opacity: 1;
+        display: block;
       }
       &:last-child {
         padding-bottom: 0;
